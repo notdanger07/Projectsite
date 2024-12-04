@@ -1,0 +1,578 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+/* ///*****header space */
+
+.header-space{
+    height: 4vh;
+    background-image: linear-gradient(to right,#bebad6,#dbd3cb);
+    width: 100%;
+    
+}
+
+/* ///-----Main-----/// */
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right,#bebad6,#dbd3cb);
+}
+
+/* ///-----Nav-----/// */
+
+.nav-bar{
+    height: 7vh;
+    max-width: 90%;
+    margin:auto ;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid rebeccapurple; */
+}
+.owners-name_logo{
+    height: 5vh;
+    width: 15%;
+    display: flex;
+    justify-content:space-around;
+    /* border: 2px solid white; */
+
+}
+.owners-logo{
+    height: 3vh;
+    width: 13%;
+    /* border-radius: 40px; */
+    background-image: linear-gradient(to left, rgb(19, 56, 19) 25%,rgb(40, 92, 40) 75%);
+
+    /* border: 2px solid green; */
+}
+.owners-name{
+    height: 6vh;
+    width: 70%;
+    color:  rgb(19, 56, 19);
+    font-size: x-large;
+    /* border: 2px solid green; */
+}
+.owners-name a{
+color: rgb(19, 56, 19) ;
+}
+.my_home-projects-contact{
+    height: 6vh;
+    width: 45%;
+    /* border: 2px solid red;    */
+}
+.my_home-projects-contact ul{
+    height: 6vh;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    /* border: 2px solid blue; */
+}   
+.my_home-projects-contact ul li{
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+    
+}
+.my_home-projects-contact ul li .li{
+    height: 6vh;
+    width: 120%;
+}
+.my_home-projects-contact ul li a{
+    height: 6vh;
+    width: 100%;
+    border-top:2px solid rgb(19, 56, 19) ;
+    border-bottom:2px solid rgb(19, 56, 19) ;
+    color: rgb(19, 56, 19);
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: large;
+    /* border: 2px solid black; */
+}
+
+/* //////////HOVER  */
+ 
+.my_home-projects-contact ul li a:hover {
+    color: rgb(82, 155, 82);
+    border-bottom: none;
+    border-top: none;
+
+}
+
+/* ///-----media query_for_nav----/// */
+
+@media only screen and (min-width:3000px){
+    
+}
+
+/* ///-----Introduction-----/// */
+
+.main-intro{
+    height: 75vh;
+    width: 80%;
+    display: flex;
+    justify-items:center ;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    /* border: 2px solid blue; */
+}
+.owners_img{
+    height: 75vh;
+    width: 60%;
+    border-bottom-left-radius: 300px;
+    
+    /* border: 2px solid black; */
+}
+.owners_img img{
+    height: 75vh;
+    width: 100%;
+    bottom: 0;
+    filter: drop-shadow(0 0 1rem rgb(19, 56, 19) );
+    border-bottom-left-radius: 300px;
+    
+    /* border: 2px solid black; */
+}
+.about_owner{
+    height: 75vh;
+    width: 50%;
+    background-color:#dbe1ff ;
+    border-top-right-radius: 300px;
+    margin: auto;
+    display: flex;   
+     box-shadow: 10px 10px 5px #dbe1ff;
+    bottom: 0;
+
+    align-items: center;
+    justify-content:center;
+    /* border: 2px solid black; */
+}
+.about_owner-greed{
+    height: 16vh;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+    border-top-right-radius: 29px;
+    /* border: 2px solid black; */
+}
+.about_owner-greed-hey-user{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    /* border: 3px solid black; */
+}
+.about_owner-greed-hey{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: ; */
+    
+}
+.about_owner-greed-user_name{
+    font-size: x-large;
+    color: rgb(76, 69, 69);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.intro{
+    height: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.main2{
+    height: 150vh;
+    width: 100%;
+}
+.skills{
+    height: 70vh;
+    width: 100%;
+    background-image:url("https://www.drishtiias.com/images/blogs/Importance-of-Skill-Development-for-Students-02.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+.skills-return{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.3;
+}
+.skills-return img{
+    height: 40vh;
+    width: 40%;
+    margin: auto;
+    opacity: 2;
+    background-color: black;
+    opacity: 0.7;
+}
+.skill-works{
+    justify-content: center;
+}
+.skill-works-heading{
+    height: 15vh;
+    width: 100%;
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(76, 69, 69) ;
+    text-align: center;
+    line-height: 4;
+    /* border: 2px solid black; */
+}
+.skill-works-experi{
+    height: 55vh;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #bebad6;
+}
+.skills-section{
+    height: 55vh;
+    width: 30%;
+    /* border: 2px solid black; */
+
+}
+
+.skills-heading{
+    height: 6vh;
+    width: 100%;
+    color: rgb(51, 46, 46);
+    margin-top:10px;
+    padding-left: 28px;
+    padding-top: 10px;
+    line-height: 1;
+    text-align: left;
+    font-size:4vh  ;
+    border-left: 2px solid black;
+    /* border: 2px solid black; */
+}
+.skills-list{
+    padding: 25px;
+    font-size: large;
+    color: rgb(76, 69, 69) ;
+    
+}
+.skills-item{
+  margin-top: 10px;
+}
+.experiences-section{
+    height: 55vh;
+    width: 30%;
+    /* border: 2px solid black; */
+
+}
+.experiences-heading{
+    height: 6vh;
+    width: 100%;
+    color: rgb(51, 46, 46);
+    margin-top:10px;
+    padding-left: 28px;
+    padding-top: 10px;
+    line-height: 1;
+    text-align: left;
+    font-size:4vh  ;
+    border-left: 2px solid black;
+    /* border: 2px solid black; */
+}
+.experiences-list{
+    padding: 25px;
+    font-size: large;
+    color: rgb(76, 69, 69) ;
+}
+.experiences-item{
+    margin-top: 10px;
+}
+
+.works-section{
+    height: 55vh;
+    width: 30%;
+    /* border: 2px solid black; */
+
+}
+.works-heading{
+    height: 6vh;
+    width: 100%;
+    color: rgb(51, 46, 46);
+    margin-top:10px;
+    padding-left: 28px;
+    padding-top: 10px;
+    line-height: 1;
+    text-align: left;
+    font-size:4vh  ;
+    border-left: 2px solid black;
+    /* border: 2px solid black; */
+}
+.works-list{
+    padding: 25px;
+    font-size: large;
+    color: rgb(76, 69, 69) ;
+}
+.works-item{
+    margin-top: 10px;
+}
+.main3{
+    height: 145vh;
+    max-width: 100%;    
+    background-image: linear-gradient(to right,#bebad6,#dbd3cb);
+}
+.projects-text{
+    height: 15vh;
+    width: 100%;
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(76, 69, 69) ;
+    text-align: center;
+    line-height: 4;
+    /* border: 2px solid black; */
+}
+.project-1-2{
+    height:35vh;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.project1{
+    height: 35vh;
+    width: 45%;
+    background-color: #dbd3cb;
+    box-shadow: 8px 8px 8px rgb(76, 69, 69);
+    /* border: 2px solid black; */
+}
+.project2{
+    height: 35vh;
+    width: 45%;
+    background-color: #dbd3cb;
+    box-shadow: 8px 8px 8px rgb(76, 69, 69);
+    
+    /* border: 2px solid black; */
+}
+.project-3{
+    height:40vh;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.project3{
+    height: 35vh;
+    width: 45%;
+    margin: auto;
+    background-color: #dbd3cb;
+    box-shadow: 8px 8px 8px rgb(76, 69, 69);
+    
+    /* border: 2px solid black; */
+}
+.project-4-5{
+    height:40vh;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.project4{
+    height: 35vh;
+    width: 45%;
+    background-color: #dbd3cb;
+    box-shadow: 8px 8px 8px rgb(76, 69, 69);
+    /* border: 2px solid black; */
+}
+.project5{
+    height: 35vh;
+    width: 45%;
+    background-color: #dbd3cb;
+    box-shadow: 8px 8px 8px rgb(76, 69, 69);
+    
+    /* border: 2px solid black; */
+}
+.main4{
+    height: 82vh;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+.contacts-text{
+    height: 15vh;
+    width: 100%;
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(76, 69, 69) ;
+    text-align: center;
+    line-height: 4;
+    /* border: 2px solid black; */
+}
+.contact-situation{
+    height: 10vh;
+    width: 60%;
+    color: rgb(76, 69, 69);
+    text-align: center;
+    font-size: 3vh;
+    margin: auto;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+    /* border: 2px solid black; */
+}
+.constact-option{
+    height: 50vh;
+    width: 50%;
+    padding: 5vh;
+    margin: auto ;
+    margin-top:5vh ;
+    border: 3px solid #bebad6;
+}
+.lebal-name{
+    height: 3.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.common-nameTag{
+    height: 3.5vh;
+    width: 33%;
+    font-size: small;
+    color: rgb(76, 69, 69);
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid black; */
+}
+.name-input{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.common-input{
+    height: 6vh;
+    color: rgb(76, 69, 69);
+    width: 33%;
+    /* border:2px solid black; */
+
+}
+ 
+.common-input input{
+    height: 5vh;
+    width: 90%;
+    border: 2px solid #bebad6;
+}
+ input:focus,
+input:active{
+    border: 2px solid white;
+}
+.email_address{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.email-input{
+    position: relative;
+    transition: 1.2s ease;
+}
+label{
+    color: rgb(76, 69, 69);
+}
+.email-input .input-label{
+    position: absolute;
+    top: 20%;
+    left:1%;
+    color: rgb(76, 69, 69);
+    cursor: text;
+
+}
+.email-inputbox:focus ~ .input-label{
+    top: -8px;
+    left: 9px;
+    background-color: white;
+}
+.common-email{
+    height: 6vh;
+    font-size: small;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 69, 69);
+    width: 33%;
+}
+.common-email input{
+    height: 5vh;
+    width: 90%;
+    border: 3px solid #bebad6;
+
+}
+.text-area{
+    height: 21vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.text_area-text{
+    height: 6vh;
+    font-size: small;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 69, 69);
+    width: 33%;
+    /* border: 2px solid black; */
+}
+ 
+#textarea{
+    border: 3px solid #bebad6;
+    
+}
+.submit{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.common-submit{
+    height: 6vh;
+    font-size: small;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 69, 69);
+    width: 33%;
+    /* border: 2px solid black; */
+}
+.common-submit button{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+    color:rgb(76, 69, 69) ;
+    background-image: linear-gradient(to right,#bebad6,#dbd3cb);
+    
+    border: 3px solid #bebad6;
+    
+}
+
+/* /////****main5 */
+
+.main5{
+    height: 8vh;
+    width: 100%;
+    padding: 14px;
+    color: whitesmoke;
+    background-color: rgb(63, 62,     62);
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.main5 sup{
+   font-size: small;
+}
